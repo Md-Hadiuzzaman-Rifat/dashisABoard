@@ -39,7 +39,9 @@ const Login = () => {
         <input type="password" placeholder="Enter Password" onChange={(e)=>setPassword(e.target.value)}/>
         <button className="form-button" type="submit">Submit Form</button>
       </form>
-
+  <br/>
+      <h1>Type Email: hadi@gmail.com</h1>
+      <h1>Type Password: hadi123</h1>
     </div>
   );
 };
